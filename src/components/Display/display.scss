@@ -1,0 +1,54 @@
+.display {
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background: pink;
+
+    .displayInput {
+        width: 300px;
+        height: 60px;
+        background: #444;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: monospace;
+
+
+    }
+    .del{
+        width: 60px;
+        width: 60px;
+        height: 60px;
+        background: yellow;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .ops {
+        width: 60px;
+        height: 60px;
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .digits {
+        width: 75px;
+        height: 60px;
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.displayInput:focus {
+    outline: none;
+}
